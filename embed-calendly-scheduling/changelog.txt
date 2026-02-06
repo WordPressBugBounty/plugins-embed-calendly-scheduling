@@ -1,8 +1,17 @@
 === EMC - Easily Embed Calendly Scheduling Features ===
-Authors: Simpma Solutions, Shycoder
+Authors: Simpma Solutions
 Plugin Page: https://wordpress.org/plugins/embed-calendly-scheduling/
 
 == Changelog ==
+
+= 4.4 - 05-02-2026 =
+
+- Support for passing UTM and GCLID parameters to Calendly
+- Tested & ensured compatibility with the latest WordPress version
+
+= 4.3 - 26-01-2026 =
+
+- Tested & ensured compatibility with the latest WordPress version
 
 = 4.2 - 17-01-2025 =
 

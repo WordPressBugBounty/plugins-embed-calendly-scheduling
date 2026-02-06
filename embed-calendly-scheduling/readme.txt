@@ -3,17 +3,17 @@ Contributors: turn2honey
 Donate link: https://simpma.com/emc/pricing/
 Tags: appointment, booking, embed calendar, calendly, scheduling
 Requires at least: 4.6
-Tested up to: 6.7.1
-Stable tag: 4.2
+Tested up to: 6.9.1
+Stable tag: 4.4
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-# Simplest Way to Embed Calendly Scheduling Features Into WordPress
+Simplest Way to Embed Calendly Scheduling Features Into WordPress
 
 ## Description
 
-[EMC Scheduling Manager](https://simpma.com/emc/) is the **easiest way** to integrate your Calendly scheduling pages into your WordPress website. Forget the back-and-forth between multiple tabs, now you can **manage common Calendly tasks** directly from WordPress with just a few clicks!
+[EMC Scheduling Manager](https://simpma.com/emc/) is the **easiest way** to integrate your Calendly scheduling pages into your WordPress website. Embed Calendly features into WordPress with ease, forget the back-and-forth between multiple tabs, now you can **manage common Calendly tasks** directly from WordPress with just a few clicks!
 
 Whether you want to display your Calendly booking page inline, as a button, or in a popup, EMC Scheduling Manager gives you the flexibility to **customize and embed** your booking page just how you want it.
 
@@ -23,7 +23,7 @@ Ready to simplify your scheduling workflow? [EMC Pro](https://simpma.com/emc/pri
 
 ## Free Version Features
 
-The **free version** of EMC Scheduling Manager comes with all the basic features you need to integrate Calendly into your WordPress site. It's simple, easy, and effective:
+The **free version** of EMC Scheduling Manager comes with all the basic features you need to integrate and embed Calendly into your WordPress site. It's simple, easy, and effective:
 
 - **Import Calendly event types** directly into WordPress  
 - **Customize embed widgets** using shortcode  
@@ -54,11 +54,12 @@ With **EMC Pro**, you'll be able to do more than just schedule appointments — 
 ## Shortcode
 
 To add a Calendly scheduling page to your WordPress site, use the following shortcode:
-[calendly url="https://calendly.com/example/call" type="1"]
+
+`[calendly url="https://calendly.com/example/call" type="1"]`
 
 You can also customize it further with additional options to match your needs:
 
-[calendly url="https://calendly.com/example/call" type="2" text="Book Now" text_color="#ffffff" text_size="14" button_style="1" button_size="1" button_color="#2694ea" branding="false" hide_details="false" style_class="custom_form_style"]
+`[calendly url="https://calendly.com/example/call" type="2" text="Book Now" text_color="#ffffff" text_size="14" button_style="1" button_size="1" button_color="#2694ea" branding="false" hide_details="false" style_class="custom_form_style"]`
 
 ## Customization
 
@@ -69,9 +70,9 @@ Use the **widget customizer** under **Dashboard > EMC > Customizer**, or apply t
   - *2* for popup button embed  
   - *3* for popup text embed  
 - `url` – Link to your Calendly scheduling page  
-- `text` – Button or link text (e.g., “Book Now”)  
+- `text` – Button or link text (e.g., "Book Now")  
 - `text_color` – Button or link text color (hex code)  
-- `text_size` – Button or link text size (e.g., “14”)  
+- `text_size` – Button or link text size (e.g., "14")  
 - `button_color` – Button background color (hex code)  
 - `button_size` – Button size:  
   - *1* (small)  
@@ -118,7 +119,7 @@ Example: [calendly type="1" url="https://calendly.com/example/call" style_class=
 
 == Disclaimer == 
 
-This is an unofficial plugin for integrating Calendly features into WordPress.
+This is an unofficial plugin for integrating/embedding Calendly features into WordPress.
 
 The free version comes with optional promotion notices that can be easily disabled by clicking the "Don't show again" button, near the notice.
 
@@ -139,6 +140,15 @@ function emcs_show_promotions() {
 `
 
 == Changelog ==
+
+= 4.4 - 05-02-2026 =
+
+- Support for passing UTM and GCLID parameters to Calendly
+- Tested & ensured compatibility with the latest WordPress version
+
+= 4.3 - 26-01-2026 =
+
+- Tested & ensured compatibility with the latest WordPress version
 
 = 4.2 - 17-01-2025 =
 
