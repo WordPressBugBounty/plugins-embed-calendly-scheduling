@@ -1,8 +1,13 @@
-=== EMC - Easily Embed Calendly Scheduling Features ===
+=== EMC - Easily Embed Calendly Scheduling ===
 Authors: Simpma Solutions
 Plugin Page: https://wordpress.org/plugins/embed-calendly-scheduling/
 
 == Changelog ==
+
+= 5.0 - 11-03-2026 =
+
+- Added dynamic calendar embedder
+- Security and performance improvements
 
 = 4.5 - 21-02-2026 =
 
