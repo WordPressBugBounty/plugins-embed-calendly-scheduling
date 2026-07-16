@@ -1,11 +1,11 @@
 === EMC - Easily Embed Calendly Scheduling ===
 Contributors: turn2honey
 Donate link: https://simpma.com/emc/pricing/
-Tags: appointment, booking, embed calendar, calendly, scheduling
+Tags: appointment, booking, calendly, scheduling
 Requires at least: 4.6
 Tested up to: 7.0
-Stable tag: 5.6
-Requires PHP: 7.0
+Stable tag: 5.7
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -227,6 +227,10 @@ function emcs_show_promotions() {
 
 == Changelog ==
 
+= 5.7 - 16-07-2026 =
+
+- Tested & ensured compatibility with the latest WordPress version
+
 = 5.6 - 01-06-2026 =
 
 - Improved inline popup button styling
@@ -260,34 +264,3 @@ function emcs_show_promotions() {
 
 - Added dynamic embedder for adding multiple calendars to a page
 - Security and performance improvements
-
-= 4.5 - 21-02-2026 =
-
-- Security fixes
-
-= 4.4 - 05-02-2026 =
-
-- Support for passing UTM and GCLID parameters to Calendly
-- Tested & ensured compatibility with the latest WordPress version
-
-= 4.3 - 26-01-2026 =
-
-- Tested & ensured compatibility with the latest WordPress version
-
-= 4.2 - 17-01-2025 =
-
-- Added prefill field option to customizer
-- Updated readme
-- Adjusted promotion module
-
-= 4.1 - 26-11-2024 =
-
-- Verified compatibility with WordPress updates.
-- Updated readme
-
-= 4.0 - 05-11-2024 =
-
-- UI rebranding and redesign
-- Added shortcode option for prefilling current logged in user info in booking forms.
-- Improved pro version support
-- Improved internationalization supportu
